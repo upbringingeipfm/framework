@@ -1,0 +1,82 @@
+
+*
+{
+  padding:0;
+  margin:0;
+}
+body
+{
+  background-image: url(Background.jpg);
+background-color: #cccccc;
+height: 500px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+.menu-bar
+{
+  background: rgb(50, 100, 0);
+  text-align: center;
+  }
+.menu-bar ul
+{
+  display: inline-flex;
+  list-style: none;
+  color: #fff
+}
+.menu-bar ul li
+{
+  width: 120px;
+  margin: 15px;
+  padding: 15px;
+}
+.menu-bar ul li a
+{text-decoration: none;
+color: #fff}
+.active, .menu-bar ul li:hover
+{
+  background: #2bab0d;
+  border-radius: 3px;
+}
+.menu-bar .fa
+  { margin-left: 8px;
+}
+
+
+#mySidenav a {
+  position: absolute;
+  left: -140px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 150px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#about {
+  top: 120px;
+  background-color: #2196F3;
+}
+
+#blog {
+  top: 200px;
+  background-color: #555;
+}
+
+#projects {
+  top: 300px;
+  background-color: #f44336;
+}
+
+#contact {
+  top: 400px;
+  background-color: #4CAF50
+}
+
